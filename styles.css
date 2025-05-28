@@ -1,0 +1,24 @@
+.bg-img {
+  background-image: url(./media/body-bg2.avif);
+}
+
+
+.hide-content * {
+  display: none;
+}
+
+.show-content * {
+  display: block;
+}
+
+.choice-button:hover {
+  cursor: grab;
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+
+.choice-button:active {
+  transform: scale(0.95);
+  transition: transform 0.2s;
+  cursor: grabbing;
+}
